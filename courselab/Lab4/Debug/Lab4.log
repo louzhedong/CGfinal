@@ -1,0 +1,28 @@
+﻿生成启动时间为 5/10/2016 9:53:05 AM。
+     1>项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Lab4\Lab4.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Lab4.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\我的软件\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\Desktop\计算机图形学\课程实验\实验4\实验四\Ex4\Ex4\main.cpp"
+         main.cpp
+     1>c:\users\administrator\desktop\计算机图形学\课程实验\实验4\实验四\ex4\ex4\main.cpp(205): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\我的软件\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\administrator\desktop\计算机图形学\课程实验\实验4\实验四\ex4\ex4\main.cpp(207): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\我的软件\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\administrator\desktop\计算机图形学\课程实验\实验4\实验四\ex4\ex4\main.cpp(213): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\我的软件\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+       Link:
+         e:\我的软件\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Lab4\Debug\Lab4.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Lab4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Lab4\Debug\Lab4.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Lab4\Debug\Lab4.lib" /MACHINE:X86 Debug\main.obj
+         Debug\stanford_bunny.obj
+         LINK : 没有找到 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Lab4\Debug\Lab4.exe 或上一个增量链接没有生成它；正在执行完全链接
+         Lab4.vcxproj -> C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Lab4\Debug\Lab4.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Lab4\Debug\Lab4.exe;#1" /manifest Debug\Lab4.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Lab4.unsuccessfulbuild”。
+         正在对“Debug\Lab4.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Lab4\Lab4.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.52

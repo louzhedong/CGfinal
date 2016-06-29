@@ -1,0 +1,9 @@
+1.用glPolygonMode(GL_FRONT_AND_BACK, GL_LINE)绘制模式画桌子；
+
+2.参考给定项目中最左边三角形的循环绘制方法，绘制最右边的桌子；
+
+3.glRotate3f()实现旋转；
+
+  glScale3f()实现缩放；
+
+  glTranslatef实现平移。
